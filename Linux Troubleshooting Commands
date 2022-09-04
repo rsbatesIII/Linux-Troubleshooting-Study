@@ -1,0 +1,25 @@
+Linux Troubleshooting Commands
+by Russell Bates
+
+arch
+
+cat /etc*-release
+
+echo $MACHTYPE
+
+uname -ar
+
+uptime -p
+
+free -m / -g / -h
+
+who
+
+lsof -i
+
+cat /etc/passwd
+
+cat /proc/cpuinfo
+
+
+
