@@ -1,4 +1,4 @@
-Linux Troubleshooting Commands
+Linux Troubleshooting Commands v1.1.1
 by Russell Bates
 
 arch
@@ -20,6 +20,28 @@ lsof -i
 cat /etc/passwd
 
 cat /proc/cpuinfo
+
+
+cat /proc/meminfo
+
+df -h
+
+du -sh
+
+ps aux
+
+netstat -antlup
+
+info command
+
+man -k command
+
+rpm -ql httpd
+
+top
+
+
+
 
 
 
