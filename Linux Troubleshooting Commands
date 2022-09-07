@@ -40,6 +40,36 @@ rpm -ql httpd
 
 top
 
+lscpu
+
+dmidecode
+
+lspci [[[ yum install -y pci-utils ]]]
+
+lsusb [[[ yum install -y usb-utils ]]]
+
+journalctl -xb
+
+journalctl -ef
+
+journalctl -p err
+
+journalctl -u [[[ sshd / ]]]
+
+dmesg
+
+blkid
+
+ncat
+
+ethtool
+
+
+
+
+
+
+
 
 
 
